@@ -54,10 +54,53 @@ video {
   border: 1px solid var(--grey);
   background-color: var(--white);
   color: var(--black);
-  padding: 20px;
+  padding: 10px 20px;
   margin: 10px;
+  text-align: center;
+  font-weight: 600;
 }
 
+.section-1 .box {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.section-2 .box {
+  width: 50%;
+  margin: 0;
+}
+
+.section-2 {
+  flex-wrap: wrap;
+}
+
+.section-3 {
+  justify-content: center;
+}
+
+.section-4 .box {
+  width: calc(50% - 10px);
+  margin: 0;
+}
+
+.section-4 {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.section-5 {
+  justify-content: flex-end;
+}
+
+.section-5 .box-1 {
+  width: 100px;
+  height: 75px;
+}
+
+.section-5 .box-2 {
+  width: 100px;
+  height: 50px;
+}
 /* ====================================
 // base rules
 // ==================================== */
